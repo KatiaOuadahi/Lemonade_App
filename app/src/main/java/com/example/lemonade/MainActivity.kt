@@ -66,6 +66,7 @@ class MainActivity : AppCompatActivity() {
 
         lemonImage = findViewById(R.id.image_lemon_state)
         setViewElements()
+        println("just for the new commit")
 
         lemonImage!!.setOnClickListener {
             clickLemonImage()
